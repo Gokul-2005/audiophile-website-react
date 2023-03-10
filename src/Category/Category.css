@@ -1,0 +1,49 @@
+#category{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vh;
+}
+.categoryMain{
+    position: relative;
+    height: 50%;
+    width: 30%;
+    background: #F1F1F1;
+    border-radius: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.categoryImg{
+    position: absolute;
+    height: 28vh;
+    width: 30vh;
+    top: -10vh;
+    left: 6vh;
+}
+.categoryTitle{
+    text-transform: uppercase;
+    font-size: 1.8vh;
+    font-weight: 700;
+    letter-spacing: 1.28571px;
+    text-align: center;
+    margin-top: 12vh;
+}
+.categoryButon{
+    background-color: transparent;
+    border: none;
+    font-size: 1.3vh;
+    font-weight: 700;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+    letter-spacing: 0.1vh;
+}
+.categoryButon:hover{
+    cursor: pointer;
+    color: #D87D4A;
+    opacity: 1;
+}

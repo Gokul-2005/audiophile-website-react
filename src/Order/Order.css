@@ -1,0 +1,108 @@
+.Order{
+    display: none;
+    position: absolute;
+    top: 18vh;
+    width: 25%;
+    z-index: 2;
+    padding: 5vh 5vh 5vh 5vh;
+    border-radius: 1vh;
+    background-color: white;
+    box-shadow: 0vh 5vh 10vh 0vh #00000055;
+}
+#confimationImg{
+    height: 7vh;
+}
+#thankyouTitle{
+    font-weight: 700;
+font-size: 3.2vh;
+line-height: 3.6vh;
+letter-spacing: 0.114286vh;
+text-transform: uppercase;
+color: #000000;
+margin-top: 5vh;
+}
+#mailRecieve{
+    font-weight: 500;
+font-size: 1.5vh;
+line-height: 2.5vh;
+color: #000000;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+#orderSummary{
+    width: 95%;
+    height: 15vh;
+    background-color: #F1F1F1;
+    margin-top: 5vh;
+    border-radius: 0.8vh;
+    padding: 0vh 0vh 0vh 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+#orderSummaryLeft{
+    width: 50%;
+    padding: 1vh 2vh 1vh 1vh;
+}
+#orderSummaryRight{
+    height: 50%;
+    width: 45%;
+    background-color: black;
+    padding: 4vh 0vh 4vh 4vh;
+}
+hr{
+background: #000000;
+mix-blend-mode: normal;
+opacity: 0.08;
+}
+#remainingItem{
+width: 100%;    
+margin-top: 1vh;
+padding-bottom: 2vh;
+text-align: center;
+font-weight: 700;
+font-size: 1.2vh;
+line-height: 1.6vh;
+letter-spacing: -0.0214286vh;
+color: #000000;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+#grandTotalSummary{
+    font-weight: 500;
+font-size: 1.5vh;
+line-height: 2.5vh;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+#summaryTotalCheckout{
+    font-weight: 700;
+font-size: 1.8vh;
+line-height: 2.5vh;
+text-align: right;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: left;
+}
+#backToHome{
+    background-color: #D87D4A;
+    border: none;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 5vh;
+    font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+#backToHome:hover{
+    cursor: pointer;
+    background-color: #FBAF85;
+}
